@@ -17,3 +17,17 @@
 .deaths{
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
+
+.infected:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+    cursor: pointer;
+}
+
+.recovered:hover{
+    background-color: rgba(0, 255, 0, 0.5);
+    cursor: pointer;
+}
+.deaths:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+}
